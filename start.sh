@@ -12,7 +12,7 @@ docker rmi $(docker images -q) -f
 export GOPATH=$HOME/go
 GOROOT=$GOPATH/src/github.com/hyperledger
 DIR_FABRIC="fabric-samples"
-DIR_APP="web3-voting-dapp"
+DIR_APP="web3-fabric-voting-dapp"
 DIR_CHAINCODE_EVM="fabric-chaincode-evm"
 
 if [ -d $GOROOT ]; then
